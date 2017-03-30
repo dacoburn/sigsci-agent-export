@@ -4,7 +4,8 @@ import os
 import argparse
 
 parser = argparse.ArgumentParser()
-parser = argparse.ArgumentParser(description='Utility for adding redactions in mass to a Signal Sciences Site')
+parser = argparse.ArgumentParser(description='Utility for exporting Agent information from a Signal Sciences Site')
+
 
 parser.add_argument("-c", type=str, 
                         help="Specify the file with the configuration options")
